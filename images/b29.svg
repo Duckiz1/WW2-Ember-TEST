@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450"><defs><filter id="sepia"><feColorMatrix type="matrix" values="0.39 0.77 0.19 0 0  0.35 0.69 0.17 0 0  0.27 0.53 0.13 0 0  0 0 0 1 0"/></filter><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.18 0"/></filter><radialGradient id="vig" cx="50%" cy="50%" r="70%"><stop offset="60%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity="0.45"/></radialGradient></defs>
+<g filter="url(#sepia)">
+<rect width="600" height="450" fill="#a9cbe0"/><ellipse cx="120" cy="80" rx="90" ry="25" fill="#fff" opacity=".7"/>
+<rect x="90" y="140" width="420" height="10" rx="5" fill="#222"/><rect x="295" y="148" width="10" height="40" fill="#333"/>
+<path d="M170 190 Q180 180 330 180 Q420 185 430 250 Q420 290 330 295 L220 295 Q160 290 170 190Z" fill="#3b4a3a"/>
+<path d="M180 200 Q190 192 250 192 L250 250 L175 250 Z" fill="#9fc1d6" opacity=".9"/>
+<path d="M420 230 L560 240 L560 255 L420 265Z" fill="#3b4a3a"/><path d="M545 205 L560 205 L570 285 L555 285Z" fill="#222"/>
+<g stroke="#222" stroke-width="7" stroke-linecap="round"><path d="M210 295 L195 330 M330 295 L345 330"/><path d="M160 330 L380 330"/></g>
+<text x="300" y="265" font-family="Arial" font-weight="bold" font-size="22" fill="#e8e8e8">NAVY</text>
+</g>
+<rect width="100%" height="100%" filter="url(#grain)"/><rect width="100%" height="100%" fill="url(#vig)"/>
+</svg>

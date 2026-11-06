@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450"><defs><filter id="sepia"><feColorMatrix type="matrix" values="0.39 0.77 0.19 0 0  0.35 0.69 0.17 0 0  0.27 0.53 0.13 0 0  0 0 0 1 0"/></filter><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.18 0"/></filter><radialGradient id="vig" cx="50%" cy="50%" r="70%"><stop offset="60%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity="0.45"/></radialGradient></defs>
 <g filter="url(#sepia)">
-<rect width="600" height="450" fill="#a9cbe0"/><ellipse cx="120" cy="80" rx="90" ry="25" fill="#fff" opacity=".7"/>
-<rect x="90" y="140" width="420" height="10" rx="5" fill="#222"/><rect x="295" y="148" width="10" height="40" fill="#333"/>
-<path d="M170 190 Q180 180 330 180 Q420 185 430 250 Q420 290 330 295 L220 295 Q160 290 170 190Z" fill="#3b4a3a"/>
-<path d="M180 200 Q190 192 250 192 L250 250 L175 250 Z" fill="#9fc1d6" opacity=".9"/>
-<path d="M420 230 L560 240 L560 255 L420 265Z" fill="#3b4a3a"/><path d="M545 205 L560 205 L570 285 L555 285Z" fill="#222"/>
-<g stroke="#222" stroke-width="7" stroke-linecap="round"><path d="M210 295 L195 330 M330 295 L345 330"/><path d="M160 330 L380 330"/></g>
-<text x="300" y="265" font-family="Arial" font-weight="bold" font-size="22" fill="#e8e8e8">NAVY</text>
+<rect width="600" height="450" fill="#a9cbe0"/><ellipse cx="110" cy="70" rx="90" ry="24" fill="#fff" opacity=".7"/><ellipse cx="500" cy="400" rx="110" ry="26" fill="#fff" opacity=".6"/>
+<path d="M300 175 L40 212 L40 228 L300 252 L560 228 L560 212 Z" fill="#8e9496"/>
+<path d="M300 350 L200 372 L200 382 L300 388 L400 382 L400 372 Z" fill="#8e9496"/>
+<path d="M282 80 Q282 60 300 58 Q318 60 318 80 L318 360 Q310 405 300 410 Q290 405 282 360 Z" fill="#a4aaac"/>
+<ellipse cx="300" cy="76" rx="15" ry="16" fill="#d8e6ee"/>
+<g fill="#7c8284"><rect x="125" y="170" width="20" height="58" rx="8"/><rect x="205" y="159" width="20" height="58" rx="8"/><rect x="375" y="159" width="20" height="58" rx="8"/><rect x="455" y="170" width="20" height="58" rx="8"/></g><g fill="#222"><ellipse cx="135" cy="168" rx="24" ry="3" opacity=".6"/><ellipse cx="215" cy="157" rx="24" ry="3" opacity=".6"/><ellipse cx="385" cy="157" rx="24" ry="3" opacity=".6"/><ellipse cx="465" cy="168" rx="24" ry="3" opacity=".6"/></g>
+<circle cx="110" cy="219" r="11" fill="#223"/><polygon points="110.0,209.0 112.4,215.8 119.5,215.9 113.8,220.2 115.9,227.1 110.0,223.0 104.1,227.1 106.2,220.2 100.5,215.9 107.6,215.8" fill="#fff"/>
 </g>
 <rect width="100%" height="100%" filter="url(#grain)"/><rect width="100%" height="100%" fill="url(#vig)"/>
 </svg>
